@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hahahaha</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        body {
+            background-color: rgb(5, 5, 15);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div#form {
+            margin: auto;
+            text-align: center;
+            font-size: 3em;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        input {
+            margin: 20px;
+            width: 380px;
+            height: 45px;
+            font-size: 0.9em;
+            border-radius: 6px;
+            border: 0px;
+        }
+        #iemail {
+            font-size: 0.8em;
+        }
+        #enviar {
+            font-size: 0.9em;
+            text-align: center;
+            height: 60px;
+            width: 260px;
+            border-radius: 50px;
+            color: black;
+        }
+        #enviar:hover {
+            cursor: pointer;
+            background-color: lightgreen;
+            box-shadow: 0px 0px 15px lightgoldenrodyellow;
+            transition: 0.7s;
+        }
+        label {
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="form">
+        <form action="">
+            <label for="iemail">E-mail</label>
+            <br>
+            <input type="email" name="email" id="iemail">
+            <br>
+            <label for="isenha">Senha</label>
+            <br>
+            <input type="password" name="senha" id="isenha">
+            <br>
+            <input type="submit" value="Entrar" id="enviar">
+        </form>
+    </div>
+</body>
+</html>

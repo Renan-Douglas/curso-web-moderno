@@ -5,3 +5,5 @@ function salario(ht, sh) {
 console.log(salario(150, 40.5))
 console.log(salario(200, 10))
 console.log(salario(190, 15))
+
+// nota 10/10

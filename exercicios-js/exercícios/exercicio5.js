@@ -12,3 +12,5 @@ maisoumenos(0, 0)
 maisoumenos(3, 1)
 maisoumenos(4, 7)
 maisoumenos(4, -1)
+
+// nota 7/10

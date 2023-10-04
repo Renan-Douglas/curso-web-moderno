@@ -5,7 +5,7 @@ function numeros (num, min, max, inc) {
         } else {
             return false
         }
-    } else if (num< max && num > min) {
+    } else if (num < max && num > min) {
         return true
     } else {
         return false

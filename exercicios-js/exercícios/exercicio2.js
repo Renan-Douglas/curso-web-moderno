@@ -5,5 +5,6 @@ function idadeEmDias(i) {
 idadeEmDias(i = 25)
 idadeEmDias(i = 65)
 idadeEmDias(i = 17)
+idadeEmDias(i = 17)
 
 // nota 10/10
